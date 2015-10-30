@@ -52,7 +52,7 @@ class Customer extends Model
 <a name="contributing"></a>
 ## Contributing
 
-Contributions are welcomed; to keep things organized, all bugs and requests should be opened on github issues tab for the main project in the [owen-it/laravel-auditing/issues](https://github.com/baconfy/eloquent-case/issues).
+Contributions are welcomed; to keep things organized, all bugs and requests should be opened on github issues tab for the main project in the [baconfy/eloquent-case/issues](https://github.com/baconfy/eloquent-case/issues).
 
 All pull requests should be made to the branch Develop, so they can be tested before being merged into the master branch.
 
