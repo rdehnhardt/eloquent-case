@@ -9,7 +9,7 @@ trait TransformLowerCase
     /**
      * Init auditing
      */
-    public static function bootTransformUpperCase()
+    public static function bootTransformLowerCase()
     {
         static::saving(function ($model) {
             $model->selfUpperCase();
