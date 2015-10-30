@@ -1,4 +1,4 @@
-# eloquent-uppercase
+# eloquent-case
 Set attributes to upper case automatically
 
 ## Installation
@@ -26,6 +26,26 @@ class Customer extends Model
      * @var array
      */
     protected $guardedCase = ['email', 'password'];
+}
+```
+
+```php
+// app/Customer.php
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+use Baconfy\EloquentCase\Traits\TransformUpperCase;
+
+class Customer extends Model
+{
+    use TransformLowerCase;
+
+    /**
+     * The attributes that aren't lower case. (optional)
+     *
+     * @var array
+     */
+    protected $guardedCase = ['name'];
 }
 ```
 
