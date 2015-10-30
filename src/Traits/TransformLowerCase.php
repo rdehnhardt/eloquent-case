@@ -1,5 +1,5 @@
 <?php
-namespace Baconfy\Case\Traits;
+namespace Baconfy\EloquentCase\Traits;
 
 use Illuminate\Support\Str;
 
