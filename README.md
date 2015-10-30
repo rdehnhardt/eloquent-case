@@ -1,5 +1,5 @@
 # eloquent-case
-Set attributes to upper case automatically
+Set attributes to upper or lower case automatically
 
 ## Installation
 
