@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Baconfy\\EloquentCase": "src/"
+      "Baconfy\\EloquentCase\\": "src/"
     },
     "files": [
       "resources/helpers.php"
