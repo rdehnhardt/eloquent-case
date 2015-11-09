@@ -2,6 +2,7 @@
   "name": "baconfy/eloquent-case",
   "type": "library",
   "description": "Baconfy Eloquent Case",
+  "license": "MIT",
   "require": {
     "php": ">=5.5.0",
     "illuminate/support": "~5.0|~5.1"
