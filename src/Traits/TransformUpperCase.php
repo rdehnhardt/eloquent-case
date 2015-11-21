@@ -31,12 +31,14 @@ trait TransformUpperCase
     {
         if (is_array($this->attributes)) {
             foreach ($this->attributes as $field => $value) {
-                if (property_exists($this, 'guardedCase')) {
-                    if (!in_array($field, $this->guardedCase)) {
+                if (is_string($value)) {
+                    if (property_exists($this, 'guardedCase')) {
+                        if (!in_array($field, $this->guardedCase)) {
+                            $this->{$field} = Str::upper($value);
+                        }
+                    } else {
                         $this->{$field} = Str::upper($value);
                     }
-                } else {
-                    $this->{$field} = Str::upper($value);
                 }
             }
         }
