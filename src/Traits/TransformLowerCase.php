@@ -1,11 +1,11 @@
 <?php
-namespace Baconfy\EloquentCase\Traits;
+
+namespace Rdehnhardt\EloquentCase\Traits;
 
 use Illuminate\Support\Str;
 
 trait TransformLowerCase
 {
-
     /**
      * Init auditing
      */
@@ -43,5 +43,4 @@ trait TransformLowerCase
             }
         }
     }
-
 }

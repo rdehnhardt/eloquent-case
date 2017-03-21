@@ -1,7 +1,7 @@
 {
-  "name": "baconfy/eloquent-case",
+  "name": "rdehnhardt/eloquent-case",
   "type": "library",
-  "description": "Baconfy Eloquent Case",
+  "description": "RDehnhardt Eloquent Case",
   "license": "MIT",
   "require": {
     "php": ">=5.5.0",
@@ -13,7 +13,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Baconfy\\EloquentCase\\": "src/"
+      "Rdehnhardt\\EloquentCase\\": "src/"
     }
   }
 }
