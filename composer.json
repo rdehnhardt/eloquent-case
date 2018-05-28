@@ -1,7 +1,7 @@
 {
   "name": "rdehnhardt/eloquent-case",
   "type": "library",
-  "description": "RDehnhardt Eloquent Case",
+  "description": "rdehnhardt Eloquent Case",
   "license": "MIT",
   "require": {
     "php": ">=5.5.0",

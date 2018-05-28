@@ -14,7 +14,7 @@ composer require rdehnhardt/eloquent-case
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Rdehnhardt\EloquentCase\Traits\TransformUpperCase;
+use Rdehnhardt\EloquentCase\TransformUpperCase;
 
 class Customer extends Model
 {
@@ -34,7 +34,7 @@ class Customer extends Model
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Rdehnhardt\EloquentCase\Traits\TransformUpperCase;
+use Rdehnhardt\EloquentCase\TransformUpperCase;
 
 class Customer extends Model
 {

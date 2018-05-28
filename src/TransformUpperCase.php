@@ -1,15 +1,15 @@
 <?php
 
-namespace Rdehnhardt\EloquentCase\Traits;
+namespace Rdehnhardt\EloquentCase;
 
 use Illuminate\Support\Str;
 
-trait TransformLowerCase
+trait TransformUpperCase
 {
     /**
      * Init auditing
      */
-    public static function bootTransformLowerCase()
+    public static function bootTransformUpperCase()
     {
         static::saving(function ($model) {
             $model->selfUpperCase();
@@ -34,10 +34,10 @@ trait TransformLowerCase
                 if (is_string($value)) {
                     if (property_exists($this, 'guardedCase')) {
                         if (!in_array($field, $this->guardedCase)) {
-                            $this->{$field} = Str::lower($value);
+                            $this->{$field} = Str::upper($value);
                         }
                     } else {
-                        $this->{$field} = Str::lower($value);
+                        $this->{$field} = Str::upper($value);
                     }
                 }
             }
